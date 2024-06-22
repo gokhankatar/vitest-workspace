@@ -1,0 +1,35 @@
+{
+  "name": "vitest-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "vitest run --environment jsdom --root src/"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "roboto-fontface": "*",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/webfontloader": "^1.0.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^24.1.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vitest": "^1.6.0",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-tsc": "^2.0.21"
+  },
+  "type": "module"
+}
