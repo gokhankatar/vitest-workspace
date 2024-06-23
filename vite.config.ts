@@ -5,10 +5,10 @@ import vue from "@vitejs/plugin-vue"
 export default defineConfig({
   plugins: [
     vue(),
-    vuetify({ autoImport: true }),
+    vuetify({ autoImport: true })
   ],
   server: {
     open: true,
     hmr: true
   }
-})
+});

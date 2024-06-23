@@ -7,7 +7,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "test": "vitest run --environment jsdom --root src/"
+    "test": "vitest run --coverage"
   },
   "dependencies": {
     "@mdi/font": "5.9.55",
@@ -22,6 +22,7 @@
   "devDependencies": {
     "@types/webfontloader": "^1.0.0",
     "@vitejs/plugin-vue": "^5.0.5",
+    "@vitest/coverage-v8": "^1.6.0",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^24.1.0",
     "typescript": "^5.2.2",

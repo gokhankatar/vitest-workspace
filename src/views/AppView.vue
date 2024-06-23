@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex justify-center align-center pa-5 ga-2">
-    <p class="text-subtitle-2 text-uppercase font-weight-bold">
+    <p id="cap-text"class="text-subtitle-2 text-uppercase font-weight-bold">
       the value will be in the range 0-250
     </p>
   </div>
